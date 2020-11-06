@@ -1,0 +1,56 @@
+2020-10-27 18:31:58.864  INFO 7956 --- [main] com.bk.BlogApplicationTests              : Starting BlogApplicationTests on LAPTOP-Q3SKNHQV with PID 7956 (started by lenovo in C:\idea\blog\blog)
+2020-10-27 18:31:58.920  INFO 7956 --- [main] com.bk.BlogApplicationTests              : The following profiles are active: dev
+2020-10-27 18:32:01.367  INFO 7956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-27 18:32:01.544  INFO 7956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154ms. Found 4 JPA repository interfaces.
+2020-10-27 18:32:03.238  INFO 7956 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 18:32:03.469  INFO 7956 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-27 18:32:03.801  INFO 7956 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-27 18:32:04.642  INFO 7956 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-27 18:32:04.937  WARN 7956 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-27 18:32:06.391  INFO 7956 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-27 18:32:06.764  INFO 7956 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-27 18:32:08.253  INFO 7956 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-27 18:32:08.523  INFO 7956 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-27 18:32:08.797  INFO 7956 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-27 18:32:11.747  INFO 7956 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-27 18:32:11.765  INFO 7956 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-27 18:32:13.167  INFO 7956 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-27 18:32:13.187  INFO 7956 --- [main] com.bk.BlogApplicationTests              : Started BlogApplicationTests in 15.338 seconds (JVM running for 18.244)
+2020-10-27 18:32:13.454  INFO 7956 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-27 18:32:13.471  INFO 7956 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 18:32:13.472  INFO 7956 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-27 18:32:13.514  INFO 7956 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-27 19:04:24.264  INFO 13148 --- [main] com.bk.BlogApplicationTests              : Starting BlogApplicationTests on LAPTOP-Q3SKNHQV with PID 13148 (started by lenovo in C:\idea\blog\blog)
+2020-10-27 19:04:24.266  INFO 13148 --- [main] com.bk.BlogApplicationTests              : The following profiles are active: dev
+2020-10-27 19:04:26.678  INFO 13148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-27 19:04:26.908  INFO 13148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210ms. Found 4 JPA repository interfaces.
+2020-10-27 19:04:29.863  INFO 13148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 19:04:30.340  INFO 13148 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-27 19:04:31.051  INFO 13148 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-27 19:04:33.481  INFO 13148 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-27 19:04:34.411  WARN 13148 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-27 19:04:37.869  INFO 13148 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-27 19:04:39.243  INFO 13148 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-27 19:04:40.163  INFO 13148 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-27 21:52:09.382  INFO 16496 --- [main] com.bk.BlogApplicationTests              : Starting BlogApplicationTests on LAPTOP-Q3SKNHQV with PID 16496 (started by lenovo in C:\idea\blog\blog)
+2020-10-27 21:52:09.385  INFO 16496 --- [main] com.bk.BlogApplicationTests              : The following profiles are active: dev
+2020-10-27 21:52:11.783  INFO 16496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-27 21:52:12.068  INFO 16496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 250ms. Found 4 JPA repository interfaces.
+2020-10-27 21:52:14.228  INFO 16496 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 21:52:14.598  INFO 16496 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-27 21:52:15.083  INFO 16496 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-27 21:52:16.090  INFO 16496 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-27 21:52:16.443  WARN 16496 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-27 21:52:18.114  INFO 16496 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-27 21:52:18.948  INFO 16496 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-27 21:52:19.533  INFO 16496 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-27 21:52:21.017  INFO 16496 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-27 21:52:21.232  INFO 16496 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-27 21:52:24.422  INFO 16496 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-27 21:52:24.437  INFO 16496 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-27 21:52:26.607  INFO 16496 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-27 21:52:26.630  INFO 16496 --- [main] com.bk.BlogApplicationTests              : Started BlogApplicationTests in 18.475 seconds (JVM running for 22.814)
+2020-10-27 21:52:27.462  INFO 16496 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-27 21:52:27.467  INFO 16496 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 21:52:27.487  INFO 16496 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-27 21:52:30.267  INFO 16496 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

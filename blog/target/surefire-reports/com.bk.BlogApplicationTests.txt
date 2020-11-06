@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.bk.BlogApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 28.628 s <<< FAILURE! - in com.bk.BlogApplicationTests
+contextLoads{HttpSession}  Time elapsed: 0.419 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [javax.servlet.http.HttpSession session] in method [void com.bk.BlogApplicationTests.contextLoads(javax.servlet.http.HttpSession)].
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>error</title>
+</head>
+<body>
+    <h1>错误</h1>
+<dv>
+    <div th:utext="${url}"></div>
+    <div th:utext="${exception}"></div>
+    <ul>
+        <li th:each="st:${exception.stackTrace}" th:remove="tag"><span th:utext="${st}"></span></li>
+    </ul>
+</dv>
+</body>
+</html>
